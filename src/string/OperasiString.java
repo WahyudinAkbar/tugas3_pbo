@@ -5,5 +5,9 @@ public class OperasiString {
         String kota = "Kandangan";
 
         System.out.println(kota);
+
+        char[] wahyuChar = { 'W', 'A', 'H', 'Y', 'U'};
+        String wahyuString = new String(wahyuChar);
+        System.out.println(wahyuString);
     }
 }
